@@ -1,0 +1,58 @@
+h2{
+	font-family:'Lyon Display Black Italic';
+	font-style:italic;
+	font-size:2.174em;
+	text-align:center;
+}
+
+
+
+
+html, body, form,  {
+	font-family:'Apercu';
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+   font-family:'Apercu';
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-family:'Apercu';
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-family:'Apercu';
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-family:'Apercu';
+}
+
+footer{
+	font-size:1.25em;
+	line-height:1.2em;
+	font-family:'Lyon Text';
+	font-weight:normal;
+	color:white;
+	 
+	a:link, a:visited{
+		text-decoration:none;
+		color:white;
+	}
+	
+	
+}
+
+footer.black{
+	
+	color:black;
+	
+	@media #{$small-only} {
+		color:white;
+	}
+	
+	a:link, a:visited{
+		text-decoration:none;
+		color:black;
+		@media #{$small-only} {
+			color:white;
+		}
+	}
+}

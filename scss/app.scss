@@ -1,0 +1,13 @@
+//@import "normalize";
+@import "settings";
+@import "foundation";
+
+// components
+@import "components/_colours.scss",
+        "components/_mixins.scss",
+        "components/_fonts.scss",
+        "components/_typography.scss",
+        "components/_forms.scss";
+
+// pages
+@import "_home.scss";

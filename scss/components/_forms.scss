@@ -1,0 +1,33 @@
+form {
+	margin-top:35px auto 300px;
+	
+  input {
+		text-align:center;
+    background: transparent;
+		border:none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 0 rem-calc(20);
+    font-size: rem-calc(16);
+    color: black;
+    height: rem-calc(30);
+    line-height: rem-calc(30);
+    margin: 8px auto 16px;
+    @include placeholder(#D0D2D3);
+    outline: none;
+    
+    &[type="submit"] {
+			margin: 22px auto 16px;
+			border: 1px solid black;
+      background: white;
+      color: black;
+      height: rem-calc(40);
+      line-height: rem-calc(40);
+    }
+  }
+}
+
+#mc-embedded-subscribe:hover{
+	
+	cursor:pointer;
+}
