@@ -95,7 +95,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <?php 
       $hostname = $_SERVER['HTTP_HOST'];
-      if ( $hostname == 'pinkyrose.woc-dev.nl'): ?>
+      if ( $hostname == 'localhost:8888'): ?>
 			  <script src="bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
         <script src="bower_components/ajaxchimp/jquery.ajaxchimp.min.js"></script>
         <script src="bower_components/jquery-waypoints/waypoints.min.js"></script>
