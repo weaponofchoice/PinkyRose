@@ -47,7 +47,7 @@
     </style>
     <section id="contact" class="row">
 			<div class="mc small-12 medium-6 large-5 small-centered columns">
-				<h2 class="small-12 medium-10 large-10 small-centered columns">Arriving soon in a fancy bar near you!
+				<h2 class="small-12 medium-10 large-8 large-8 small-centered columns">Arriving soon in a fancy bar near you!
 				</h2>
 	      <p class="text-center small-12 medium-10 large-10 small-centered columns">sign in to our newsletter to receive updates
 on the arrival of pinky rose fresh &amp; serious syrups</p>
@@ -73,7 +73,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
     <footer class="row fixed">
       <div class="adr medium-4 large-4 columns text-center">
         <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
-        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.com</a></div>
+        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
       </div>
       <div class=" medium-4 large-4  columns text-center">
 				<span class="seal">
@@ -95,7 +95,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <?php 
       $hostname = $_SERVER['HTTP_HOST'];
-      if ( $hostname == 'pinkyrose.woc-dev.nl' or 'localhost:8888'): ?>
+      if ( $hostname == 'pinkyrose.woc-dev.nl'): ?>
 			  <script src="bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
         <script src="bower_components/ajaxchimp/jquery.ajaxchimp.min.js"></script>
         <script src="bower_components/jquery-waypoints/waypoints.min.js"></script>

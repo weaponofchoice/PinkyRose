@@ -1532,11 +1532,13 @@ form {
       border: 1px solid black;
       background: white;
       color: black;
-      height: 2.5rem;
+      height: 2.75rem;
       line-height: 2.5rem; }
 
 #mc-embedded-subscribe:hover {
-  cursor: pointer; }
+  cursor: pointer;
+  background: black;
+  color: white; }
 
 html, body {
   width: 100%;
@@ -1708,3 +1710,9 @@ footer {
 .white header .tumblr,
 .white header .contact {
   color: black; }
+
+h2 {
+  max-width: 450px; }
+
+#contact p {
+  max-width: 450px; }

@@ -21,8 +21,9 @@ form {
 			border: 1px solid black;
       background: white;
       color: black;
-      height: rem-calc(40);
+      height: rem-calc(44);
       line-height: rem-calc(40);
+			
     }
   }
 }
@@ -30,4 +31,6 @@ form {
 #mc-embedded-subscribe:hover{
 	
 	cursor:pointer;
+	background:black;
+	color:white;
 }
