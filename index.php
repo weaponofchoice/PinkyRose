@@ -59,11 +59,7 @@
 					<span class="seal">
 	        	<?php include("images/seal.svg"); ?>
 					</span>
-					<span class="social">
-	        	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
-	        		<span>Tumblr</span>
-	        	</a>
-					</span>
+					
 	      </div>
 	      <div class="adr medium-4 large-4 columns text-center">
 	        <div class="street-address">Westzeedijk 453</div>

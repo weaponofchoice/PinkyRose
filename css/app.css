@@ -1616,6 +1616,50 @@ header .tumblr {
       #splash-static .mc {
         display: block;
         top: 20px; } }
+  #splash-static .adr {
+    padding: 1.5em; }
+  #splash-static .seal {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center; }
+    @media only screen and (max-width: 40em) {
+      #splash-static .seal {
+        position: relative; } }
+  #splash-static .social {
+    position: absolute;
+    display: none;
+    height: 3rem;
+    width: 100%;
+    top: 1.75rem;
+    left: 0;
+    text-align: center; }
+    #splash-static .social .button {
+      -webkit-transition-property: background-color;
+      -moz-transition-property: background-color;
+      -o-transition-property: background-color;
+      transition-property: background-color;
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+      -o-transition-duration: 0.2s;
+      transition-duration: 0.2s;
+      -webkit-transition-timing-function: ease-in-out;
+      -moz-transition-timing-function: ease-in-out;
+      -o-transition-timing-function: ease-in-out;
+      transition-timing-function: ease-in-out;
+      transition-duration: .2s;
+      display: inline-block;
+      width: 3rem;
+      height: 3rem;
+      border: 2px solid #000;
+      border-radius: 100%;
+      margin: 0 auto;
+      background: no-repeat center center; }
+      #splash-static .social .button span {
+        display: none; }
+    #splash-static .social .button#tumblr {
+      background-image: url("../images/tumblr.svg");
+      background-size: 30%; }
 
 #splash {
   height: 100%;
@@ -1682,9 +1726,6 @@ header .tumblr {
 
 footer {
   bottom: 50px; }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-    footer {
-      font-size: 0.5em; } }
   footer .adr {
     padding: 1.5em; }
   footer .seal {
