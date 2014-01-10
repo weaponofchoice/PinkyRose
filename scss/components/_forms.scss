@@ -15,8 +15,10 @@ form {
     margin: 8px auto 16px;
     @include placeholder(#D0D2D3);
     outline: none;
-		border-radius: none;
-    
+		
+		-webkit-appearance: none;
+		border-radius: 0;
+		
     &[type="submit"] {
 			margin: 22px auto 16px;
 			border: 1px solid black;
@@ -24,7 +26,7 @@ form {
       color: black;
       height: rem-calc(44);
       line-height: rem-calc(40);
-			border-radius: none;
+			
 			
     }
   }

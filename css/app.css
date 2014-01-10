@@ -1517,7 +1517,8 @@ form {
     line-height: 1.875rem;
     margin: 8px auto 16px;
     outline: none;
-    border-radius: none; }
+    -webkit-appearance: none;
+    border-radius: 0; }
     form input::-webkit-input-placeholder {
       color: #d0d2d3; }
     form input:-moz-placeholder {
@@ -1534,8 +1535,7 @@ form {
       background: white;
       color: black;
       height: 2.75rem;
-      line-height: 2.5rem;
-      border-radius: none; }
+      line-height: 2.5rem; }
 
 #mc-embedded-subscribe:hover {
   cursor: pointer;
