@@ -1,7 +1,6 @@
 $(function() {
       BV = new $.BigVideo({useFlashForFirefox:false, container:$('#splash')});
 			BV.init();
-			
 			if (Modernizr.touch) {
 			    BV.show('images/static.png');
 			} else {
