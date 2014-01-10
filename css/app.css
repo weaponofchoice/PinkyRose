@@ -1534,7 +1534,8 @@ form {
       background: white;
       color: black;
       height: 2.75rem;
-      line-height: 2.5rem; }
+      line-height: 2.5rem;
+      border-radius: none; }
 
 #mc-embedded-subscribe:hover {
   cursor: pointer;
