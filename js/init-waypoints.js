@@ -3,10 +3,10 @@
   if ($('#contact').length > 0) {
     $('#contact').waypoint(function(direction) {
       if (direction === 'down') {
-        $('.seal, .adr').fadeOut();
+        $('footer').fadeOut();
       }
       if (direction === 'up') {
-        return $('.seal, .adr').fadeIn();
+        return $('footer').fadeIn();
       }
     }, {
       offset: '99%'
@@ -14,11 +14,11 @@
     $('#contact').waypoint(function(direction) {
       if (direction === 'down') {
         $('footer').addClass('black');
-        $('.social, .adr').fadeIn();
+        $('footer, .social').fadeIn();
       }
       if (direction === 'up') {
         $('footer').removeClass('black');
-        return $('.social, .adr').fadeOut();
+        return $('footer, .social').fadeOut();
       }
     }, {
       offset: '50'

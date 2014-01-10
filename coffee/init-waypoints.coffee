@@ -1,18 +1,18 @@
 if $('#contact').length > 0
 	$('#contact').waypoint (direction) ->
 		if direction is 'down' 
-			$('.seal, .adr').fadeOut()
+			$('footer').fadeOut()
 		if direction is 'up' 
-			$('.seal, .adr').fadeIn()
+			$('footer').fadeIn()
 	,
 		offset: '99%'
 		
 	$('#contact').waypoint (direction) ->
 		if direction is 'down'
 			$('footer').addClass 'black'
-			$('.social, .adr').fadeIn()
+			$('footer, .social').fadeIn()
 		if direction is 'up' 
 			$('footer').removeClass 'black'
-			$('.social, .adr').fadeOut()
+			$('footer, .social').fadeOut()
 	,
 	offset: '50'
