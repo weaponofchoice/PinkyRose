@@ -15,6 +15,7 @@ form {
     margin: 8px auto 16px;
     @include placeholder(#D0D2D3);
     outline: none;
+		border-radius: none;
     
     &[type="submit"] {
 			margin: 22px auto 16px;

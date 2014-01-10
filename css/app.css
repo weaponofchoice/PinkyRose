@@ -1516,7 +1516,8 @@ form {
     height: 1.875rem;
     line-height: 1.875rem;
     margin: 8px auto 16px;
-    outline: none; }
+    outline: none;
+    border-radius: none; }
     form input::-webkit-input-placeholder {
       color: #d0d2d3; }
     form input:-moz-placeholder {
