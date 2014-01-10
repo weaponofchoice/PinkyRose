@@ -46,7 +46,36 @@
     <section id="splash-static" class="row">
       <div class="mc small-10 medium-8 large-6 small-centered columns">
 				<?php include("images/logo.svg"); ?>
+				<?php
+				$detect = new Mobile_Detect;
+				if( $detect->isMobile() && !$detect->isTablet() ){
+				    // Do something for only mobile users
+				?>
+	      <div class="adr medium-4 large-4 columns text-center">
+	        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
+	        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
+	      </div>
+	      <div class=" medium-4 large-4  columns text-center">
+					<span class="seal">
+	        	<?php include("images/seal.svg"); ?>
+					</span>
+					<span class="social">
+	        	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
+	        		<span>Tumblr</span>
+	        	</a>
+					</span>
+	      </div>
+	      <div class="adr medium-4 large-4 columns text-center">
+	        <div class="street-address">Westzeedijk 453</div>
+					<span class="postal-code">3024 EK</span>
+	        <span class="locality">Rotterdam</span>
       
+	      </div>
+				<?php
+				} else {
+				    // Do something for only desktop users
+					}
+				?>
 			</div>
     </section>
     <style type="text/css" media="screen">
@@ -97,6 +126,14 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 			</div>
     </section>
     <footer class="row fixed">
+			<?php
+			$detect = new Mobile_Detect;
+			if( $detect->isMobile() && !$detect->isTablet() ){
+			    // Do something for only mobile users
+			?>
+			<?php
+			} else { 
+			?>
       <div class="adr medium-4 large-4 columns text-center">
         <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
         <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
@@ -117,6 +154,11 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
         <span class="locality">Rotterdam</span>
       
       </div>
+				 
+			<?php		
+				}
+			?>
+      
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <?php 
