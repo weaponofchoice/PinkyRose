@@ -26,7 +26,10 @@
     <link rel="stylesheet" href="css/app_override.css">
     <!-- build:js js/vendor/modernizr.js -->
     <script src="bower_components/modernizr/modernizr.js"></script>
+		<script src="bower_components/isMobile/isMobile.min.js"></script>
     <!-- endbuild -->
+		<?php require_once  'mobileDetect.php' ?>
+		<?php?>
   </head>
   <body>
     <div class="row fixed">
@@ -34,17 +37,40 @@
         
       </header>
     </div>
-    <section id="splash" class="row">
+		
+		<?php
+		$detect = new Mobile_Detect;
+		if( $detect->isMobile() && !$detect->isTablet() ){
+		    // Do something for only mobile users
+		?>
+    <section id="splash-static" class="row">
       <div class="mc small-10 medium-8 large-6 small-centered columns">
 				<?php include("images/logo.svg"); ?>
-        
+      
 			</div>
     </section>
     <style type="text/css" media="screen">
-			#splash svg{
+			#splash-static svg{
 				width:100%;
 			}
     </style>
+    
+		
+		<?php
+		} else { ?>
+	    <section id="splash" class="row">
+	      <div class="mc small-10 medium-8 large-6 small-centered columns">
+					<?php include("images/logo.svg"); ?>
+        
+				</div>
+	    </section>
+	    <style type="text/css" media="screen">
+				#splash svg{
+					width:100%;
+				}
+	    </style>
+		<?php } ?>
+		
     <section id="contact" class="row">
 			<div class="mc small-12 medium-6 large-5 small-centered columns">
 				<h2 class="small-12 medium-10 large-8 large-8 small-centered columns">Arriving soon in a fancy bar near you!
