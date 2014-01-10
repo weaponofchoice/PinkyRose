@@ -51,28 +51,26 @@
 				if( $detect->isMobile() && !$detect->isTablet() ){
 				    // Do something for only mobile users
 				?>
-				<footer class="row">
-		      <div class="adr medium-4 large-4 columns text-center">
-		        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
-		        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
-		      </div>
-		      <div class=" medium-4 large-4  columns text-center">
-						<span class="seal">
-		        	<?php include("images/seal.svg"); ?>
-						</span>
-						<span class="social">
-		        	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
-		        		<span>Tumblr</span>
-		        	</a>
-						</span>
-		      </div>
-		      <div class="adr medium-4 large-4 columns text-center">
-		        <div class="street-address">Westzeedijk 453</div>
-						<span class="postal-code">3024 EK</span>
-		        <span class="locality">Rotterdam</span>
+	      <div class="adr medium-4 large-4 columns text-center">
+	        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
+	        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
+	      </div>
+	      <div class=" medium-4 large-4  columns text-center">
+					<span class="seal">
+	        	<?php include("images/seal.svg"); ?>
+					</span>
+					<span class="social">
+	        	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
+	        		<span>Tumblr</span>
+	        	</a>
+					</span>
+	      </div>
+	      <div class="adr medium-4 large-4 columns text-center">
+	        <div class="street-address">Westzeedijk 453</div>
+					<span class="postal-code">3024 EK</span>
+	        <span class="locality">Rotterdam</span>
       
-		      </div>
-				</footer>
+	      </div>
 				<?php
 				} else {
 				    // Do something for only desktop users
@@ -127,7 +125,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 				</div>
 			</div>
     </section>
-   
+    <footer class="row fixed">
 			<?php
 			$detect = new Mobile_Detect;
 			if( $detect->isMobile() && !$detect->isTablet() ){
@@ -136,33 +134,32 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 			<?php
 			} else { 
 			?>
-			 <footer class="row fixed">
-	      <div class="adr medium-4 large-4 columns text-center">
-	        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
-	        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
-	      </div>
-	      <div class=" medium-4 large-4  columns text-center">
-					<span class="seal">
-	        	<?php include("images/seal.svg"); ?>
-					</span>
-					<span class="social">
-	        	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
-	        		<span>Tumblr</span>
-	        	</a>
-					</span>
-	      </div>
-	      <div class="adr medium-4 large-4 columns text-center">
-	        <div class="street-address">Westzeedijk 453</div>
-					<span class="postal-code">3024 EK</span>
-	        <span class="locality">Rotterdam</span>
+      <div class="adr medium-4 large-4 columns text-center">
+        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
+        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
+      </div>
+      <div class=" medium-4 large-4  columns text-center">
+				<span class="seal">
+        	<?php include("images/seal.svg"); ?>
+				</span>
+				<span class="social">
+        	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
+        		<span>Tumblr</span>
+        	</a>
+				</span>
+      </div>
+      <div class="adr medium-4 large-4 columns text-center">
+        <div class="street-address">Westzeedijk 453</div>
+				<span class="postal-code">3024 EK</span>
+        <span class="locality">Rotterdam</span>
       
-	      </div>
-			</footer>	 
+      </div>
+				 
 			<?php		
 				}
 			?>
       
-    
+    </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <?php 
       $hostname = $_SERVER['HTTP_HOST'];
