@@ -1682,14 +1682,11 @@ header .tumblr {
 
 footer {
   bottom: 50px; }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    footer {
+      font-size: 0.5em; } }
   footer .adr {
     padding: 1.5em; }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-      footer .adr {
-        font-size: 0.6em; } }
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-      footer .adr {
-        font-size: 0.6em; } }
   footer .seal {
     position: absolute;
     width: 100%;
