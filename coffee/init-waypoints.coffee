@@ -1,9 +1,9 @@
 if $('#contact').length > 0
 	$('#contact').waypoint (direction) ->
 		if direction is 'down' 
-			$('footer').fadeOut()
+			$('footer, .seal').fadeOut()
 		if direction is 'up' 
-			$('footer').fadeTo(1000,1)
+			$('footer, .seal').fadeTo(1000,1)
 	,
 		offset: '99%'
 		

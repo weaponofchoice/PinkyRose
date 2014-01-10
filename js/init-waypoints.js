@@ -3,10 +3,10 @@
   if ($('#contact').length > 0) {
     $('#contact').waypoint(function(direction) {
       if (direction === 'down') {
-        $('footer').fadeOut();
+        $('footer, .seal').fadeOut();
       }
       if (direction === 'up') {
-        return $('footer').fadeTo(1000, 1);
+        return $('footer, .seal').fadeTo(1000, 1);
       }
     }, {
       offset: '99%'
