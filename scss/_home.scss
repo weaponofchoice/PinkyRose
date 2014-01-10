@@ -187,9 +187,11 @@ header {
   
   width: 100%;
   padding-top: rem-calc(170);
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {  padding-top: rem-calc(50);/}
 	padding-bottom: rem-calc(260);
 	p{
 		margin:150px auto 50px;
+		@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { margin:50px auto 50px;/}
 	}
   .brands,
   .vcard {
@@ -280,7 +282,6 @@ footer {
 			background-image: url('../images/tumblr.svg');
 			background-size: 30%;
 		}
-		
 		
 		
 	}
