@@ -1699,8 +1699,14 @@ header .tumblr {
   width: 100%;
   padding-top: 10.625rem;
   padding-bottom: 16.25rem; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #contact {
+      padding-top: 3.125rem; } }
   #contact p {
     margin: 150px auto 50px; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      #contact p {
+        margin: 50px auto 50px; } }
   #contact .brands,
   #contact .vcard {
     text-align: center;
