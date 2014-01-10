@@ -1592,7 +1592,7 @@ header .tumblr {
 #splash-static {
   height: 100%;
   width: 100%;
-  background: url "images/static.png";
+  background: url "../images/static.png";
   background-size: cover; }
 
 #splash {
