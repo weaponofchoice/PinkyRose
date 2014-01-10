@@ -1589,6 +1589,12 @@ header .tumblr {
 header .tumblr {
   text-align: right; }
 
+#splash-static {
+  height: 100%;
+  width: 100%;
+  background: url "images/static.png";
+  background-size: cover; }
+
 #splash {
   height: 100%;
   width: 100%; }
