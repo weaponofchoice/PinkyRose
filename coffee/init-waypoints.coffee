@@ -10,7 +10,8 @@ if $('#contact').length > 0
 	$('#contact').waypoint (direction) ->
 		if direction is 'down'
 			$('footer').addClass 'black'
-			$('footer, .social').fadeTo(1000,1)
+			$('footer').fadeTo(1000,1)
+			$('.social').fadeTo(1000,1)
 		if direction is 'up' 
 			$('footer').removeClass 'black'
 			$('footer, .social').fadeOut()

@@ -14,7 +14,8 @@
     $('#contact').waypoint(function(direction) {
       if (direction === 'down') {
         $('footer').addClass('black');
-        $('footer, .social').fadeTo(1000, 1);
+        $('footer').fadeTo(1000, 1);
+        $('.social').fadeTo(1000, 1);
       }
       if (direction === 'up') {
         $('footer').removeClass('black');
