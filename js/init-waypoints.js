@@ -6,7 +6,7 @@
         $('footer').fadeOut();
       }
       if (direction === 'up') {
-        return $('footer').fadeIn();
+        return $('footer').fadeTo(1000, 1);
       }
     }, {
       offset: '99%'
@@ -14,7 +14,7 @@
     $('#contact').waypoint(function(direction) {
       if (direction === 'down') {
         $('footer').addClass('black');
-        $('footer, .social').fadeIn();
+        $('footer, .social').fadeTo(1000, 1);
       }
       if (direction === 'up') {
         $('footer').removeClass('black');
