@@ -1480,15 +1480,19 @@ html, body, form {
   /* Internet Explorer 10+ */
   font-family: 'Apercu'; }
 
-footer {
+footer, #splash-static {
   font-size: 1.25em;
   line-height: 1.2em;
   font-family: 'Lyon Text';
   font-weight: normal;
   color: white; }
-  footer a:link, footer a:visited {
+  footer a:link, footer a:visited, #splash-static a:link, #splash-static a:visited {
     text-decoration: none;
     color: white; }
+
+#splash-static {
+  font-size: 0.8em;
+  line-height: 1em; }
 
 footer.black {
   color: black; }
