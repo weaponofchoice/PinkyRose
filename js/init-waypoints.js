@@ -3,10 +3,10 @@
   if ($('#contact').length > 0) {
     $('#contact').waypoint(function(direction) {
       if (direction === 'down') {
-        $('footer, .seal').fadeOut(200);
+        $('footer, .seal').fadeOut(10);
       }
       if (direction === 'up') {
-        return $('footer, .seal').fadeTo(500, 1);
+        return $('footer, .seal').fadeIn(500);
       }
     }, {
       offset: '99%'
@@ -18,7 +18,7 @@
       }
       if (direction === 'up') {
         $('footer').removeClass('black');
-        return $('footer, .social').fadeOut(200);
+        return $('footer, .social').fadeOut(10);
       }
     }, {
       offset: '50'
