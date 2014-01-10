@@ -14,11 +14,11 @@
     $('#contact').waypoint(function(direction) {
       if (direction === 'down') {
         $('footer').addClass('black');
-        $('footer, .social').fadeIn();
+        $('footer').fadeIn();
       }
       if (direction === 'up') {
         $('footer').removeClass('black');
-        return $('footer, .social').fadeOut();
+        return $('footer').fadeOut();
       }
     }, {
       offset: '50'
