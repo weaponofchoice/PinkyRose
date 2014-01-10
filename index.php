@@ -40,7 +40,7 @@
 		
 		<?php
 		$detect = new Mobile_Detect;
-		if( $detect->isMobile() && !$detect->isTablet() ){
+		if( $detect->isMobile() ){
 		    // Do something for only mobile users
 		?>
     <section id="splash-static" class="row">
