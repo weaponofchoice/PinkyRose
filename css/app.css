@@ -1594,7 +1594,7 @@ header .tumblr {
   width: 100%; }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     #splash {
-      height: 50%;
+      height: 100%;
       width: 100%; } }
   #splash .mc {
     position: absolute;
