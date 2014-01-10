@@ -53,6 +53,32 @@ header {
   width: 100%;
 	background-image: url('../images/static.png');
 	background-size:cover;
+	
+  .mc {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: table;
+    height: auto;
+    
+    h2 {
+      color: white;
+      font-size: rem-calc(28);
+      font-weight: normal;
+      text-align: center;
+      line-height: 1.2;
+    }
+    .response p {
+      color: white;
+      margin-top: 0;
+    }
+		@media #{$small-only} {
+			display:block;
+			top:20px;
+		}
 }
 
 #splash {
@@ -127,6 +153,10 @@ header {
 footer {
   bottom: 50px;
   
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)and (-webkit-min-device-pixel-ratio: 1)  { 
+		font-size:0.7em;
+		}
+	
 	.adr{
 		padding:1.5em;
 	}

@@ -91,7 +91,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 	          <div class="response" id="mce-error-response"></div>
 	        </div>    <!-- real people should not fill this in and expect good things -->
 	          <div style="position: absolute; left: -5000px;"><input type="text" name="b_3f0272d82730516139eb960f2_51c8d0a2f8" value=""></div>
-	        <div class="clear small-12 medium-4 large-4 small-centered columns"><input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
+	        <div class="clear small-12 medium-6 large-6 small-centered columns"><input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
 	      </form>
 				</div>
 			</div>
