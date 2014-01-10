@@ -3,7 +3,7 @@
   if ($('#contact').length > 0) {
     $('#contact').waypoint(function(direction) {
       if (direction === 'down') {
-        $('footer, .seal').fadeOut();
+        $('footer, .seal').fadeOut(200);
       }
       if (direction === 'up') {
         return $('footer, .seal').fadeTo(500, 1);
@@ -14,11 +14,11 @@
     $('#contact').waypoint(function(direction) {
       if (direction === 'down') {
         $('footer').addClass('black');
-        $('footer, .social').fadeIn(500, 1);
+        $('footer, .social').fadeIn(500);
       }
       if (direction === 'up') {
         $('footer').removeClass('black');
-        return $('footer, .social').fadeOut();
+        return $('footer, .social').fadeOut(200);
       }
     }, {
       offset: '50'
