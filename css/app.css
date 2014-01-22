@@ -1456,8 +1456,9 @@ select {
   content: "\e600"; }
 
 h2 {
-  font-family: 'Lyon Display Black Italic';
+  font-family: "kepler-std",serif;
   font-style: italic;
+  font-weight: 600;
   font-size: 2.174em;
   text-align: center; }
 
@@ -1498,8 +1499,9 @@ html, body, form {
 footer, #splash-static {
   font-size: 1.25em;
   line-height: 1.2em;
-  font-family: 'Lyon Text';
-  font-weight: normal;
+  font-family: "kepler-std",serif;
+  font-style: normal;
+  font-weight: 400;
   color: white; }
   footer a:link, footer a:visited, #splash-static a:link, #splash-static a:visited {
     text-decoration: none;
@@ -1590,10 +1592,6 @@ header .logo {
   @media only screen and (min-width: 40.063em) {
     header .logo {
       margin-bottom: -1em; } }
-  header .logo svg {
-    display: block;
-    margin: 0 auto;
-    width: 100%; }
 header .contact,
 header .tumblr {
   color: white;
@@ -1609,21 +1607,27 @@ header .tumblr {
 header .tumblr {
   text-align: right; }
 
-#splash {
+svg {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%; }
+
+#splash, #splash-static {
   height: 100%;
   width: 100%; }
-  #splash .vjs-control-bar {
+  #splash .vjs-control-bar, #splash-static .vjs-control-bar {
     display: none; }
-  #splash video {
+  #splash video, #splash-static video {
     width: 100%;
     height: 100%;
     background: black;
     object-fit: cover; }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    #splash {
+    #splash, #splash-static {
       height: 100%;
       width: 100%; } }
-  #splash .mc {
+  #splash .mc, #splash-static .mc {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -1632,17 +1636,17 @@ header .tumblr {
     margin: auto;
     display: table;
     height: auto; }
-    #splash .mc h2 {
+    #splash .mc h2, #splash-static .mc h2 {
       color: white;
       font-size: 1.75rem;
       font-weight: normal;
       text-align: center;
       line-height: 1.2; }
-    #splash .mc .response p {
+    #splash .mc .response p, #splash-static .mc .response p {
       color: white;
       margin-top: 0; }
     @media only screen and (max-width: 40em) {
-      #splash .mc {
+      #splash .mc, #splash-static .mc {
         display: block;
         top: 20px; } }
 

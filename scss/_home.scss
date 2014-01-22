@@ -27,11 +27,7 @@ header {
     -o-transition: fill .3s ease-in-out;
     transition: fill .3s ease-in-out;
     
-    svg {
-      display: block;
-      margin: 0 auto;
-      width: 100%;
-    }
+    
   }
   .contact,
   .tumblr {
@@ -48,14 +44,20 @@ header {
   .tumblr { text-align: right;}
 }
 
+svg {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+	max-width:100%;
+}
 
-
-#splash {
+#splash, #splash-static {
   height: 100%;
   width: 100%;
 	.vjs-control-bar{
 		display:none;
 	}
+	
 	
 	video{
 		width: 100%;
@@ -94,8 +96,11 @@ header {
 			display:block;
 			top:20px;
 		}
+
   }
 }
+
+
 #contact {
   
   width: 100%;

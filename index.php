@@ -40,8 +40,21 @@
 		
 	
     
+		<?php
+		$detect = new Mobile_Detect;
+		if( $detect->isMobile() && !$detect->isTablet() ):
+		    // Do something for only mobile users
 		
+		?>
+	    <section id="splash-static" class="row">
+	      <div class="mc small-10 medium-8 large-6 small-centered columns">
+					<?php include("images/logo.svg"); ?>
+      
+				</div>
+	    </section>
 	
+	   
+		<?php else: ?>
 	    <section id="splash" class="row">
 	      <div class="mc small-10 medium-8 large-6 small-centered columns">
 					<?php include("images/logo.svg"); ?>
@@ -53,6 +66,7 @@
 					width:100%;
 				}
 	    </style>
+		<?php	endif;	?>
 		
 		
     <section id="contact" class="row">
@@ -81,12 +95,12 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 			</div>
     </section>
     <footer class="row fixed">
-			<?php
-			$detect = new Mobile_Detect;
-			if( $detect->isMobile() && !$detect->isTablet() ):
-			    // Do something for only mobile users
-			
-			?>
+		<?php
+		$detect = new Mobile_Detect;
+		if( $detect->isMobile() && !$detect->isTablet() ):
+		    // Do something for only mobile users
+		
+		?>
 		<?php else: ?>
       <div class="adr medium-4 large-4 columns text-center">
         <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
@@ -112,36 +126,42 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 		<?php	endif;	?>
       
     </footer>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <?php 
-      $hostname = $_SERVER['HTTP_HOST'];
-      if ( $hostname == 'localhost:8888' or 'http://pinkyrose.woc-dev.nl/'): ?>
-			  <script src="bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
-        <script src="bower_components/ajaxchimp/jquery.ajaxchimp.min.js"></script>
-        <script src="bower_components/jquery-waypoints/waypoints.min.js"></script>
-        
-        <script src="js/init-mailchimp.js"></script>
-        <script src="js/scrollto.js"></script>
-				
-				<script src="bower_components/video.js/video.js"></script>
-				<script src="bower_components/BigVideo.js/lib/bigvideo.js"></script>
-				<script src="js/bigvideo.js"></script>
-				
-      <?php else: ?>
-        <script src="js/app.min.js"></script>
-    <?php endif; ?>
-				<script type="text/javascript">
-				WebFontConfig = { fontdeck: { id: '41748' } };
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+		<script src="bower_components/ajaxchimp/jquery.ajaxchimp.min.js"></script>
+		<script src="bower_components/jquery-waypoints/waypoints.min.js"></script>
+		<script src="js/vendor/jquery.backstretch.min.js"></script>
+		
+		<script src="js/init-mailchimp.js"></script>
+		<script src="bower_components/video.js/video.js"></script>
+		<script src="bower_components/BigVideo.js/lib/bigvideo.js"></script>
+		<script src="js/bigvideo.js"></script>
+		<?php
+		$detect = new Mobile_Detect;
+		if( $detect->isMobile() && !$detect->isTablet() ):
+		    // Do something for only mobile users
 
-				(function() {
-				  var wf = document.createElement('script');
-				  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-				  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-				  wf.type = 'text/javascript';
-				  wf.async = 'true';
-				  var s = document.getElementsByTagName('script')[0];
-				  s.parentNode.insertBefore(wf, s);
-				})();
-				</script>
+		?>
+  
+		<?php else: ?>
+	  <script src="js/init-waypoints.js"></script>
+		<?php endif; ?>
+		<script type="text/javascript" src="//use.typekit.net/hmx6jli.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<script type="text/javascript">
+		$("#splash-static").backstretch("images/static.png");
+
+		WebFontConfig = { fontdeck: { id: '41748' } };
+
+		(function() {
+		  var wf = document.createElement('script');
+		  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+		  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		  wf.type = 'text/javascript';
+		  wf.async = 'true';
+		  var s = document.getElementsByTagName('script')[0];
+		  s.parentNode.insertBefore(wf, s);
+		})();
+		</script>
   </body>
 </html>
