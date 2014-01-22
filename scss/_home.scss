@@ -48,108 +48,21 @@ header {
   .tumblr { text-align: right;}
 }
 
-#splash-static{
-  height: 100%;
-  width: 100%;
-	background-image: url('../images/static.png');
-	background-size:cover;
-	
-  .mc {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: table;
-    height: auto;
-    
-    h2 {
-      color: white;
-      font-size: rem-calc(28);
-      font-weight: normal;
-      text-align: center;
-      line-height: 1.2;
-    }
-    .response p {
-      color: white;
-      margin-top: 0;
-    }
-		@media #{$small-only} {
-			display:block;
-			top:20px;
-		}
-	}
-	
-	.adr{
-		padding:1.5em;
-	}
-	
-	
-	.seal{
-		position:absolute;
-		width:100%;
-	  left:0;
-		text-align:center;
-		
-		@media #{$small-only} {
-			position:relative;
-		}
-	}
-	
-	.social{
-		position:absolute;
-		
-		display:none;
-		height:3rem;
-		width:100%;
-		top:1.75rem;
-		left:0;
-		text-align:center;
-		
-		.button {
-		-webkit-transition-property: background-color;
-		-moz-transition-property: background-color;
-		-o-transition-property: background-color;
-		transition-property: background-color;
-		-webkit-transition-duration: 0.2s;
-		-moz-transition-duration: 0.2s;
-		-o-transition-duration: 0.2s;
-		transition-duration: 0.2s;
-		-webkit-transition-timing-function: ease-in-out;
-		-moz-transition-timing-function: ease-in-out;
-		-o-transition-timing-function: ease-in-out;
-		transition-timing-function: ease-in-out;
-		transition-duration: .2s;
-		display: inline-block;
-		width: 3rem;
-		height: 3rem;
-		border: 2px solid #000;
-		border-radius: 100%;
-		margin: 0 auto;
-		
-		background: no-repeat center center;
-		
-		span {
-			display: none;
-			}
-			
-		}
-		
-		.button#tumblr{
-			background-image: url('../images/tumblr.svg');
-			background-size: 30%;
-		}
-		
-		
-		
-	}
-	
-}
+
 
 #splash {
   height: 100%;
   width: 100%;
+	.vjs-control-bar{
+		display:none;
+	}
+	
+	video{
+		width: 100%;
+		height: 100%;
+		background:black;
+		object-fit:cover;
+	}
 	
 	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
 	  height: 100%;

@@ -1509,6 +1509,7 @@ footer.black {
 form {
   margin-top: 35px auto 300px; }
   form input {
+    font-weight: normal;
     text-align: center;
     background: transparent;
     border: none;
@@ -1519,7 +1520,7 @@ form {
     color: black;
     height: 1.875rem;
     line-height: 1.875rem;
-    margin: 8px auto 16px;
+    margin: 8px auto 2rem;
     outline: none;
     -webkit-appearance: none;
     border-radius: 0; }
@@ -1593,81 +1594,16 @@ header .tumblr {
 header .tumblr {
   text-align: right; }
 
-#splash-static {
-  height: 100%;
-  width: 100%;
-  background-image: url("../images/static.png");
-  background-size: cover; }
-  #splash-static .mc {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: table;
-    height: auto; }
-    #splash-static .mc h2 {
-      color: white;
-      font-size: 1.75rem;
-      font-weight: normal;
-      text-align: center;
-      line-height: 1.2; }
-    #splash-static .mc .response p {
-      color: white;
-      margin-top: 0; }
-    @media only screen and (max-width: 40em) {
-      #splash-static .mc {
-        display: block;
-        top: 20px; } }
-  #splash-static .adr {
-    padding: 1.5em; }
-  #splash-static .seal {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center; }
-    @media only screen and (max-width: 40em) {
-      #splash-static .seal {
-        position: relative; } }
-  #splash-static .social {
-    position: absolute;
-    display: none;
-    height: 3rem;
-    width: 100%;
-    top: 1.75rem;
-    left: 0;
-    text-align: center; }
-    #splash-static .social .button {
-      -webkit-transition-property: background-color;
-      -moz-transition-property: background-color;
-      -o-transition-property: background-color;
-      transition-property: background-color;
-      -webkit-transition-duration: 0.2s;
-      -moz-transition-duration: 0.2s;
-      -o-transition-duration: 0.2s;
-      transition-duration: 0.2s;
-      -webkit-transition-timing-function: ease-in-out;
-      -moz-transition-timing-function: ease-in-out;
-      -o-transition-timing-function: ease-in-out;
-      transition-timing-function: ease-in-out;
-      transition-duration: .2s;
-      display: inline-block;
-      width: 3rem;
-      height: 3rem;
-      border: 2px solid #000;
-      border-radius: 100%;
-      margin: 0 auto;
-      background: no-repeat center center; }
-      #splash-static .social .button span {
-        display: none; }
-    #splash-static .social .button#tumblr {
-      background-image: url("../images/tumblr.svg");
-      background-size: 30%; }
-
 #splash {
   height: 100%;
   width: 100%; }
+  #splash .vjs-control-bar {
+    display: none; }
+  #splash video {
+    width: 100%;
+    height: 100%;
+    background: black;
+    object-fit: cover; }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     #splash {
       height: 100%;

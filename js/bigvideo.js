@@ -5,6 +5,8 @@ $(function() {
 			if (Modernizr.touch) {
 			    BV.show('images/static.png');
 			} else {
-					BV.show('vids/pinkyrose.mp4', {altSource:'vids/river.ogv', ambient:true});
+					BV.show('vids/pinkyrose.mp4', {ambient:true});
 		}
+		
+		
 });

@@ -20,7 +20,7 @@
 
     <meta name="og:image" content="http://www.pinkyrose.nl/img/ogimage.jpg">
     <meta name="og:url" content="http://www.pinkyrose.nl">
-    <meta name="og:site_name" content="Nex Xavier">
+    <meta name="og:site_name" content="Pinky Rose">
     
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/app_override.css">
@@ -38,51 +38,10 @@
       </header>
     </div>
 		
-		<?php
-		$detect = new Mobile_Detect;
-		if( $detect->isMobile() ){
-		    // Do something for only mobile users
-		?>
-    <section id="splash-static" class="row">
-      <div class="mc small-10 medium-8 large-6 small-centered columns">
-				<?php include("images/logo.svg"); ?>
-				<?php
-				$detect = new Mobile_Detect;
-				if( $detect->isMobile() && !$detect->isTablet() ){
-				    // Do something for only mobile users
-				?>
-	      <div class="adr medium-4 large-4 columns text-center">
-	        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
-	        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
-	      </div>
-	      <div class=" medium-4 large-4  columns text-center">
-					<span class="seal">
-	        	<?php include("images/seal.svg"); ?>
-					</span>
-					
-	      </div>
-	      <div class="adr medium-4 large-4 columns text-center">
-	        <div class="street-address">Westzeedijk 453</div>
-					<span class="postal-code">3024 EK</span>
-	        <span class="locality">Rotterdam</span>
-      
-	      </div>
-				<?php
-				} else {
-				    // Do something for only desktop users
-					}
-				?>
-			</div>
-    </section>
-    <style type="text/css" media="screen">
-			#splash-static svg{
-				width:100%;
-			}
-    </style>
+	
     
 		
-		<?php
-		} else { ?>
+	
 	    <section id="splash" class="row">
 	      <div class="mc small-10 medium-8 large-6 small-centered columns">
 					<?php include("images/logo.svg"); ?>
@@ -94,10 +53,10 @@
 					width:100%;
 				}
 	    </style>
-		<?php } ?>
+		
 		
     <section id="contact" class="row">
-			<div class="mc small-12 medium-6 large-5 small-centered columns">
+			<div class="mc small-12 medium-6 large-4 small-centered columns">
 				<h2 class="small-12 medium-10 large-8 large-8 small-centered columns">Arriving soon in a fancy bar near you!
 				</h2>
 	      <p class="text-center small-12 medium-10 large-10 small-centered columns">sign in to our newsletter to receive updates
@@ -116,7 +75,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 	          <div class="response" id="mce-error-response"></div>
 	        </div>    <!-- real people should not fill this in and expect good things -->
 	          <div style="position: absolute; left: -5000px;"><input type="text" name="b_3f0272d82730516139eb960f2_51c8d0a2f8" value=""></div>
-	        <div class="clear small-12 medium-6 large-6 small-centered columns"><input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
+	        <div class="clear small-12 medium-6 large-6 small-centered columns"><input type="submit" value="SIGN ME UP" name="subscribe" id="mc-embedded-subscribe"></div>
 	      </form>
 				</div>
 			</div>
@@ -124,12 +83,11 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
     <footer class="row fixed">
 			<?php
 			$detect = new Mobile_Detect;
-			if( $detect->isMobile() && !$detect->isTablet() ){
+			if( $detect->isMobile() && !$detect->isTablet() ):
 			    // Do something for only mobile users
+			
 			?>
-			<?php
-			} else { 
-			?>
+		<?php else: ?>
       <div class="adr medium-4 large-4 columns text-center">
         <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
         <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
@@ -151,9 +109,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
       
       </div>
 				 
-			<?php		
-				}
-			?>
+		<?php	endif;	?>
       
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>

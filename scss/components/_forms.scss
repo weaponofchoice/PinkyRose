@@ -2,6 +2,7 @@ form {
 	margin-top:35px auto 300px;
 	
   input {
+		font-weight:normal;
 		text-align:center;
     background: transparent;
 		border:none;
@@ -12,7 +13,7 @@ form {
     color: black;
     height: rem-calc(30);
     line-height: rem-calc(30);
-    margin: 8px auto 16px;
+    margin: 8px auto rem-calc(32);
     @include placeholder(#D0D2D3);
     outline: none;
 		
