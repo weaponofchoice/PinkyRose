@@ -28,7 +28,7 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
 		<script src="bower_components/isMobile/isMobile.min.js"></script>
     <!-- endbuild -->
-		<?php require_once  'mobileDetect.php' ?>
+		<?php require_once  'Mobile_Detect.php' ?>
 		<?php?>
   </head>
   <body>
@@ -42,7 +42,7 @@
     
 		<?php
 		$detect = new Mobile_Detect;
-		if( $detect->isMobile() && !$detect->isTablet() ):
+		if (  $detect->isMobile() ) :
 		    // Do something for only mobile users
 		
 		?>
@@ -67,6 +67,7 @@
 				}
 	    </style>
 		<?php	endif;	?>
+		
 		
 		
     <section id="contact" class="row">
@@ -97,7 +98,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
     <footer class="row fixed">
 		<?php
 		$detect = new Mobile_Detect;
-		if( $detect->isMobile() && !$detect->isTablet() ):
+		if ( $detect->isMobile() ) :
 		    // Do something for only mobile users
 		
 		?>
@@ -136,16 +137,9 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 		<script src="bower_components/video.js/video.js"></script>
 		<script src="bower_components/BigVideo.js/lib/bigvideo.js"></script>
 		<script src="js/bigvideo.js"></script>
-		<?php
-		$detect = new Mobile_Detect;
-		if( $detect->isMobile() && !$detect->isTablet() ):
-		    // Do something for only mobile users
-
-		?>
-  
-		<?php else: ?>
+		
 	  <script src="js/init-waypoints.js"></script>
-		<?php endif; ?>
+	
 		<script type="text/javascript" src="//use.typekit.net/hmx6jli.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<script type="text/javascript">
