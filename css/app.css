@@ -1462,23 +1462,38 @@ h2 {
   text-align: center; }
 
 html, body, form {
-  font-family: 'Apercu'; }
+  font-family: "Apercu Regular", Calibri, sans-serif;
+  font-size-adjust: 0.508;
+  font-weight: normal;
+  font-style: normal; }
 
 ::-webkit-input-placeholder {
   /* WebKit browsers */
-  font-family: 'Apercu'; }
+  font-family: "Apercu Regular", Calibri, sans-serif;
+  font-size-adjust: 0.508;
+  font-weight: normal;
+  font-style: normal; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  font-family: 'Apercu'; }
+  font-family: "Apercu Regular", Calibri, sans-serif;
+  font-size-adjust: 0.508;
+  font-weight: normal;
+  font-style: normal; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  font-family: 'Apercu'; }
+  font-family: "Apercu Regular", Calibri, sans-serif;
+  font-size-adjust: 0.508;
+  font-weight: normal;
+  font-style: normal; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  font-family: 'Apercu'; }
+  font-family: "Apercu Regular", Calibri, sans-serif;
+  font-size-adjust: 0.508;
+  font-weight: normal;
+  font-style: normal; }
 
 footer, #splash-static {
   font-size: 1.25em;
