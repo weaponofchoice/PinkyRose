@@ -142,9 +142,10 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 		    // Do something for only mobile & Tablet users
 
 		?>
-  
-		<?php else: ?>
-	  <script src="js/init-waypoints.js"></script>
+		 <script src="js/init-waypoints.js"></script>
+    <?php else: ?>
+
+	 
 		<?php endif; ?>
 		<script type="text/javascript" src="//use.typekit.net/hmx6jli.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
