@@ -42,8 +42,8 @@
     
 		<?php
 		$detect = new Mobile_Detect;
-		if( $detect->isMobile()  ):
-		    // Do something for only mobile & Tablet users
+		if( $detect->isMobile() && !$detect->isTablet() ):
+		    // Do something for only mobile users
 		
 		?>
 	    <section id="splash-static" class="row">
@@ -94,15 +94,14 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 				</div>
 			</div>
     </section>
-    
+    <footer class="row fixed">
 		<?php
 		$detect = new Mobile_Detect;
-		if( $detect->isMobile()):
+		if( $detect->isMobile() && !$detect->isTablet() ):
 		    // Do something for only mobile users
 		
 		?>
 		<?php else: ?>
-		<footer class="row fixed">
       <div class="adr medium-4 large-4 columns text-center">
         <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
         <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
@@ -123,10 +122,10 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
         <span class="locality">Rotterdam</span>
       
       </div>
-		</footer>	 
+				 
 		<?php	endif;	?>
       
-    
+    </footer>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script src="bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
 		<script src="bower_components/ajaxchimp/jquery.ajaxchimp.min.js"></script>
@@ -134,25 +133,18 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 		<script src="js/vendor/jquery.backstretch.min.js"></script>
 		
 		<script src="js/init-mailchimp.js"></script>
-		<script src="js/init-waypoints.js"></script>
-		
-		
 		<script src="bower_components/video.js/video.js"></script>
 		<script src="bower_components/BigVideo.js/lib/bigvideo.js"></script>
 		<script src="js/bigvideo.js"></script>
-		
-		
-		
 		<?php
 		$detect = new Mobile_Detect;
-		if( $detect->isMobile()  ):
-		    // Do something for only mobile & Tablet users
+		if( $detect->isMobile() && !$detect->isTablet() ):
+		    // Do something for only mobile users
 
 		?>
-		 
-    <?php else: ?>
-
-	 
+  
+		<?php else: ?>
+	  <script src="js/init-waypoints.js"></script>
 		<?php endif; ?>
 		<script type="text/javascript" src="//use.typekit.net/hmx6jli.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
