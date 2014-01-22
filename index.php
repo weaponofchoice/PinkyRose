@@ -119,7 +119,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 			  <script src="bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
         <script src="bower_components/ajaxchimp/jquery.ajaxchimp.min.js"></script>
         <script src="bower_components/jquery-waypoints/waypoints.min.js"></script>
-        <script src="js/init-waypoints.js"></script>
+        
         <script src="js/init-mailchimp.js"></script>
         <script src="js/scrollto.js"></script>
 				

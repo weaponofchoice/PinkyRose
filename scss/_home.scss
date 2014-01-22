@@ -132,6 +132,12 @@ header {
   }
 }
 footer {
+	
+	@media #{$medium-only} {
+		&.fixed{
+			position:absolute;
+		}
+	 }
   bottom: 50px;
   
 

@@ -1687,6 +1687,9 @@ header .tumblr {
 
 footer {
   bottom: 50px; }
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    footer.fixed {
+      position: absolute; } }
   footer .adr {
     padding: 1.5em; }
   footer .seal {

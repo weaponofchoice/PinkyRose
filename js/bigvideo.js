@@ -5,7 +5,7 @@ $(function() {
 			if (Modernizr.touch) {
 			    BV.show('images/static.png');
 			} else {
-					BV.show('vids/pinkyrose.mp4', {ambient:true});
+					BV.show('images/static.png');
 		}
 		
 		
