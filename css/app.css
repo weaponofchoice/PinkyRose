@@ -2268,16 +2268,9 @@ html {
 /* line 11, ../scss/_home.scss */
 .fixed {
   position: fixed;
-  z-index: 100;
-}
-@media only screen and (max-width: 40em) {
-  /* line 11, ../scss/_home.scss */
-  .fixed {
-    position: absolute;
-  }
 }
 
-/* line 21, ../scss/_home.scss */
+/* line 18, ../scss/_home.scss */
 svg {
   display: block;
   margin: 0 auto;
@@ -2285,16 +2278,16 @@ svg {
   max-width: 100%;
 }
 
-/* line 28, ../scss/_home.scss */
+/* line 25, ../scss/_home.scss */
 #splash, #splash-static {
   height: 100%;
   width: 100%;
 }
-/* line 31, ../scss/_home.scss */
+/* line 28, ../scss/_home.scss */
 #splash .vjs-control-bar, #splash-static .vjs-control-bar {
   display: none;
 }
-/* line 36, ../scss/_home.scss */
+/* line 33, ../scss/_home.scss */
 #splash video, #splash-static video {
   width: 100%;
   height: 100%;
@@ -2302,13 +2295,13 @@ svg {
   object-fit: cover;
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* line 28, ../scss/_home.scss */
+  /* line 25, ../scss/_home.scss */
   #splash, #splash-static {
     height: 100%;
     width: 100%;
   }
 }
-/* line 48, ../scss/_home.scss */
+/* line 45, ../scss/_home.scss */
 #splash .mc, #splash-static .mc {
   position: absolute;
   top: 0;
@@ -2319,7 +2312,7 @@ svg {
   display: table;
   height: auto;
 }
-/* line 58, ../scss/_home.scss */
+/* line 55, ../scss/_home.scss */
 #splash .mc h2, #splash-static .mc h2 {
   color: white;
   font-size: 1.75rem;
@@ -2327,42 +2320,42 @@ svg {
   text-align: center;
   line-height: 1.2;
 }
-/* line 65, ../scss/_home.scss */
+/* line 62, ../scss/_home.scss */
 #splash .mc .response p, #splash-static .mc .response p {
   color: white;
   margin-top: 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 48, ../scss/_home.scss */
+  /* line 45, ../scss/_home.scss */
   #splash .mc, #splash-static .mc {
     display: block;
     top: 20px;
   }
 }
 
-/* line 78, ../scss/_home.scss */
+/* line 75, ../scss/_home.scss */
 #contact {
   width: 100%;
   padding-top: 10.625rem;
   padding-bottom: 16.25rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 78, ../scss/_home.scss */
+  /* line 75, ../scss/_home.scss */
   #contact {
     padding-top: 3.125rem;
   }
 }
-/* line 84, ../scss/_home.scss */
+/* line 81, ../scss/_home.scss */
 #contact p {
   margin: 150px auto 50px;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 84, ../scss/_home.scss */
+  /* line 81, ../scss/_home.scss */
   #contact p {
     margin: 50px auto 50px;
   }
 }
-/* line 88, ../scss/_home.scss */
+/* line 85, ../scss/_home.scss */
 #contact .brands,
 #contact .vcard {
   text-align: center;
@@ -2370,7 +2363,7 @@ svg {
   line-height: 120%;
   letter-spacing: 0.08em;
 }
-/* line 95, ../scss/_home.scss */
+/* line 92, ../scss/_home.scss */
 #contact .brands {
   font-family: "Fournier MT Std";
   font-size: 1.5rem;
@@ -2378,47 +2371,48 @@ svg {
   letter-spacing: 0.02em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 95, ../scss/_home.scss */
+  /* line 92, ../scss/_home.scss */
   #contact .brands {
     margin-bottom: 5rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 95, ../scss/_home.scss */
+  /* line 92, ../scss/_home.scss */
   #contact .brands {
     margin-bottom: 7rem;
   }
 }
-/* line 102, ../scss/_home.scss */
+/* line 99, ../scss/_home.scss */
 #contact .brands br {
   display: none;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 102, ../scss/_home.scss */
+  /* line 99, ../scss/_home.scss */
   #contact .brands br {
     display: block;
   }
 }
-/* line 107, ../scss/_home.scss */
+/* line 104, ../scss/_home.scss */
 #contact .adr {
   border-bottom: 1px solid black;
   padding-bottom: 1em;
   margin-bottom: 1em;
 }
 
-/* line 114, ../scss/_home.scss */
+/* line 111, ../scss/_home.scss */
 header {
+  z-index: 100;
   bottom: 50px;
 }
-/* line 115, ../scss/_home.scss */
+/* line 113, ../scss/_home.scss */
 header.absolute {
   position: absolute;
 }
-/* line 123, ../scss/_home.scss */
+/* line 121, ../scss/_home.scss */
 header .adr {
   padding: 1.5em;
 }
-/* line 128, ../scss/_home.scss */
+/* line 126, ../scss/_home.scss */
 header .seal {
   position: absolute;
   width: 100%;
@@ -2426,12 +2420,12 @@ header .seal {
   text-align: center;
 }
 @media only screen and (max-width: 40em) {
-  /* line 128, ../scss/_home.scss */
+  /* line 126, ../scss/_home.scss */
   header .seal {
     position: relative;
   }
 }
-/* line 139, ../scss/_home.scss */
+/* line 137, ../scss/_home.scss */
 header .social {
   position: absolute;
   display: none;
@@ -2441,7 +2435,7 @@ header .social {
   left: 0;
   text-align: center;
 }
-/* line 149, ../scss/_home.scss */
+/* line 147, ../scss/_home.scss */
 header .social .button {
   -webkit-transition-property: background-color;
   -moz-transition-property: background-color;
@@ -2464,16 +2458,16 @@ header .social .button {
   margin: 0 auto;
   background: no-repeat center center;
 }
-/* line 172, ../scss/_home.scss */
+/* line 170, ../scss/_home.scss */
 header .social .button span {
   display: none;
 }
-/* line 178, ../scss/_home.scss */
+/* line 176, ../scss/_home.scss */
 header .social .button#tumblr {
   background-image: url("../images/tumblr.svg");
   background-size: 30%;
 }
-/* line 186, ../scss/_home.scss */
+/* line 184, ../scss/_home.scss */
 header .payoff {
   margin: 0 auto;
   fill: white;
@@ -2482,19 +2476,19 @@ header .payoff {
   -o-transition: fill .3s ease-in-out;
   transition: fill .3s ease-in-out;
 }
-/* line 194, ../scss/_home.scss */
+/* line 192, ../scss/_home.scss */
 header .payoff svg {
   display: block;
   margin: 0 auto;
   width: 100%;
 }
 
-/* line 203, ../scss/_home.scss */
+/* line 201, ../scss/_home.scss */
 .white header .logo,
 .white footer .payoff {
   fill: black;
 }
-/* line 207, ../scss/_home.scss */
+/* line 205, ../scss/_home.scss */
 .white header .tumblr,
 .white header .contact {
   color: black;
