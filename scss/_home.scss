@@ -112,12 +112,10 @@ svg {
 }
 
 header {
+	&.absolute{
+		position:absolute;
+	}
 	
-	@media #{$medium-only} {
-		&.fixed{
-			position:absolute;
-		}
-	 }
   bottom: 50px;
   
 

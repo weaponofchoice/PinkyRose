@@ -2410,17 +2410,15 @@ svg {
 header {
   bottom: 50px;
 }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 117, ../scss/_home.scss */
-  header.fixed {
-    position: absolute;
-  }
+/* line 115, ../scss/_home.scss */
+header.absolute {
+  position: absolute;
 }
-/* line 125, ../scss/_home.scss */
+/* line 123, ../scss/_home.scss */
 header .adr {
   padding: 1.5em;
 }
-/* line 130, ../scss/_home.scss */
+/* line 128, ../scss/_home.scss */
 header .seal {
   position: absolute;
   width: 100%;
@@ -2428,12 +2426,12 @@ header .seal {
   text-align: center;
 }
 @media only screen and (max-width: 40em) {
-  /* line 130, ../scss/_home.scss */
+  /* line 128, ../scss/_home.scss */
   header .seal {
     position: relative;
   }
 }
-/* line 141, ../scss/_home.scss */
+/* line 139, ../scss/_home.scss */
 header .social {
   position: absolute;
   display: none;
@@ -2443,7 +2441,7 @@ header .social {
   left: 0;
   text-align: center;
 }
-/* line 151, ../scss/_home.scss */
+/* line 149, ../scss/_home.scss */
 header .social .button {
   -webkit-transition-property: background-color;
   -moz-transition-property: background-color;
@@ -2466,16 +2464,16 @@ header .social .button {
   margin: 0 auto;
   background: no-repeat center center;
 }
-/* line 174, ../scss/_home.scss */
+/* line 172, ../scss/_home.scss */
 header .social .button span {
   display: none;
 }
-/* line 180, ../scss/_home.scss */
+/* line 178, ../scss/_home.scss */
 header .social .button#tumblr {
   background-image: url("../images/tumblr.svg");
   background-size: 30%;
 }
-/* line 188, ../scss/_home.scss */
+/* line 186, ../scss/_home.scss */
 header .payoff {
   margin: 0 auto;
   fill: white;
@@ -2484,19 +2482,19 @@ header .payoff {
   -o-transition: fill .3s ease-in-out;
   transition: fill .3s ease-in-out;
 }
-/* line 196, ../scss/_home.scss */
+/* line 194, ../scss/_home.scss */
 header .payoff svg {
   display: block;
   margin: 0 auto;
   width: 100%;
 }
 
-/* line 205, ../scss/_home.scss */
+/* line 203, ../scss/_home.scss */
 .white header .logo,
 .white footer .payoff {
   fill: black;
 }
-/* line 209, ../scss/_home.scss */
+/* line 207, ../scss/_home.scss */
 .white header .tumblr,
 .white header .contact {
   color: black;

@@ -40,16 +40,16 @@
 		
 		?>
 		
-    <header class=" row ">
+    <header class="row absolute">
       <div class="adr medium-4 large-4 columns text-center">
         <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
         <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
       </div>
       <div class=" medium-4 large-4  columns text-center">
-				<span class="seal seal-desk">
+				<span class="seal">
         	<?php include("images/seal.svg"); ?>
 				</span>
-				<span class="social social-desk">
+				<span class="social">
         	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
         		<span>Tumblr</span>
         	</a>
