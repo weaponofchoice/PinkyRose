@@ -32,30 +32,11 @@
 		<?php?>
   </head>
   <body>
-   
-      <header class="row fixed">
-	      <div class="adr medium-4 large-4 columns text-center">
-	        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
-	        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
-	      </div>
-	      <div class=" medium-4 large-4  columns text-center">
-					<span class="seal">
-	        	<?php include("images/seal.svg"); ?>
-					</span>
-					<span class="social">
-	        	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
-	        		<span>Tumblr</span>
-	        	</a>
-					</span>
-	      </div>
-	      <div class="adr medium-4 large-4 columns text-center">
-	        <div class="street-address">Westzeedijk 453</div>
-					<span class="postal-code">3024 EK</span>
-	        <span class="locality">Rotterdam</span>
-      
-	      </div>
+    <div class="row fixed">
+      <header class="medium-12 small-centered columns">
+        
       </header>
-   
+    </div>
 		
 		
     
@@ -88,7 +69,16 @@
 		<?php	endif;	?>
 		
 		
+		<?php
+		$detect = new Mobile_Detect;
+		if ( $detect->isMobile() && !$detect->isTablet() ) :
+		    // Do something for only mobile users
 		
+		?>
+		<p>No</p>
+		<?php else: ?>
+			<p>Test</p>
+		<?php	endif;	?>
 		
 		
     <section id="contact" class="row">
@@ -119,35 +109,31 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
     <footer class="row fixed">
 		<?php
 		$detect = new Mobile_Detect;
-		if ( $detect->isMobile()) :
+		if ( $detect->isMobile() && !$detect->isTablet()) :
 		    // Do something for only mobile users
 		
 		?>
-		
-    <div class="adr medium-4 large-4 columns text-center">
-      <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
-      <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
-    </div>
-    <div class=" medium-4 large-4  columns text-center">
-			<span class="seal">
-      	<?php include("images/seal.svg"); ?>
-			</span>
-			<span class="social">
-      	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
-      		<span>Tumblr</span>
-      	</a>
-			</span>
-    </div>
-    <div class="adr medium-4 large-4 columns text-center">
-      <div class="street-address">Westzeedijk 453</div>
-			<span class="postal-code">3024 EK</span>
-      <span class="locality">Rotterdam</span>
-    
-    </div>
-		
-		
 		<?php else: ?>
+      <div class="adr medium-4 large-4 columns text-center">
+        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
+        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
+      </div>
+      <div class=" medium-4 large-4  columns text-center">
+				<span class="seal">
+        	<?php include("images/seal.svg"); ?>
+				</span>
+				<span class="social">
+        	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
+        		<span>Tumblr</span>
+        	</a>
+				</span>
+      </div>
+      <div class="adr medium-4 large-4 columns text-center">
+        <div class="street-address">Westzeedijk 453</div>
+				<span class="postal-code">3024 EK</span>
+        <span class="locality">Rotterdam</span>
       
+      </div>
 				 
 		<?php	endif;	?>
 		
@@ -166,7 +152,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 		<script src="js/bigvideo.js"></script>
 		
 	  <script src="js/init-waypoints.js"></script>
-	 
+	
 		<script type="text/javascript" src="//use.typekit.net/hmx6jli.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<script type="text/javascript">
