@@ -144,16 +144,7 @@
 		<?php	endif;	?>
 		
 		
-		<?php
-		$detect = new Mobile_Detect;
-		if ( $detect->isMobile() ) :
-		    // Do something for only mobile users
 		
-		?>
-		<p>No</p>
-		<?php else: ?>
-			<p>Test</p>
-		<?php	endif;	?>
 		
 		
     <section id="contact" class="row">
