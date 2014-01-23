@@ -49,11 +49,6 @@
 				<span class="seal">
         	<?php include("images/seal.svg"); ?>
 				</span>
-				<span class="social">
-        	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
-        		<span>Tumblr</span>
-        	</a>
-				</span>
       </div>
       <div class="adr medium-4 large-4 columns text-center">
         <div class="street-address">Westzeedijk 453</div>
@@ -164,6 +159,28 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 		    // Do something for only mobile users
 		
 		?>
+		
+    
+      <div class="adr medium-4 large-4 columns text-center">
+        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
+        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
+      </div>
+      <div class=" medium-4 large-4  columns text-center">
+				<span class="social">
+        	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
+        		<span>Tumblr</span>
+        	</a>
+				</span>
+      </div>
+      <div class="adr medium-4 large-4 columns text-center">
+        <div class="street-address">Westzeedijk 453</div>
+				<span class="postal-code">3024 EK</span>
+        <span class="locality">Rotterdam</span>
+      
+      </div>
+   
+		
+		
 		<?php else: ?>
      
 				 

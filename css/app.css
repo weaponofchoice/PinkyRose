@@ -2400,20 +2400,20 @@ svg {
 }
 
 /* line 111, ../scss/_home.scss */
-header {
+header, footer {
   z-index: 100;
   bottom: 50px;
 }
 /* line 113, ../scss/_home.scss */
-header.absolute {
+header.absolute, footer.absolute {
   position: absolute;
 }
 /* line 121, ../scss/_home.scss */
-header .adr {
+header .adr, footer .adr {
   padding: 1.5em;
 }
 /* line 126, ../scss/_home.scss */
-header .seal {
+header .seal, footer .seal {
   position: absolute;
   width: 100%;
   left: 0;
@@ -2421,12 +2421,12 @@ header .seal {
 }
 @media only screen and (max-width: 40em) {
   /* line 126, ../scss/_home.scss */
-  header .seal {
+  header .seal, footer .seal {
     position: relative;
   }
 }
 /* line 137, ../scss/_home.scss */
-header .social {
+header .social, footer .social {
   position: absolute;
   display: none;
   height: 3rem;
@@ -2436,7 +2436,7 @@ header .social {
   text-align: center;
 }
 /* line 147, ../scss/_home.scss */
-header .social .button {
+header .social .button, footer .social .button {
   -webkit-transition-property: background-color;
   -moz-transition-property: background-color;
   -o-transition-property: background-color;
@@ -2459,16 +2459,16 @@ header .social .button {
   background: no-repeat center center;
 }
 /* line 170, ../scss/_home.scss */
-header .social .button span {
+header .social .button span, footer .social .button span {
   display: none;
 }
 /* line 176, ../scss/_home.scss */
-header .social .button#tumblr {
+header .social .button#tumblr, footer .social .button#tumblr {
   background-image: url("../images/tumblr.svg");
   background-size: 30%;
 }
 /* line 184, ../scss/_home.scss */
-header .payoff {
+header .payoff, footer .payoff {
   margin: 0 auto;
   fill: white;
   -webkit-transition: fill .3s ease-in-out;
@@ -2477,7 +2477,7 @@ header .payoff {
   transition: fill .3s ease-in-out;
 }
 /* line 192, ../scss/_home.scss */
-header .payoff svg {
+header .payoff svg, footer .payoff svg {
   display: block;
   margin: 0 auto;
   width: 100%;
