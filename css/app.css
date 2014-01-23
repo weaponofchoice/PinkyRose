@@ -2172,23 +2172,23 @@ footer a:link, footer a:visited, header a:link, header a:visited, #splash-static
 }
 
 /* line 50, ../scss/components/_typography.scss */
-header.black {
+header.black, footer.black {
   color: black;
 }
 @media only screen and (max-width: 40em) {
   /* line 50, ../scss/components/_typography.scss */
-  header.black {
+  header.black, footer.black {
     color: white;
   }
 }
 /* line 58, ../scss/components/_typography.scss */
-header.black a:link, header.black a:visited {
+header.black a:link, header.black a:visited, footer.black a:link, footer.black a:visited {
   text-decoration: none;
   color: black;
 }
 @media only screen and (max-width: 40em) {
   /* line 58, ../scss/components/_typography.scss */
-  header.black a:link, header.black a:visited {
+  header.black a:link, header.black a:visited, footer.black a:link, footer.black a:visited {
     color: white;
   }
 }
@@ -2432,7 +2432,6 @@ header .seal, footer .seal {
 /* line 141, ../scss/_home.scss */
 header .social, footer .social {
   position: absolute;
-  display: none;
   height: 3rem;
   width: 100%;
   top: 1.75rem;
