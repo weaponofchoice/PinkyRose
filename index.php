@@ -37,9 +37,23 @@
 		<?php
 			 $detect = new Mobile_Detect;
 			 if( $detect->isMobile() && !$detect->isTablet() ):
-		   Test
+		 
 	
 		?>
+    <header class="row absolute">
+      <div class="adr medium-4 large-4 columns text-center">
+       
+      </div>
+      <div class=" medium-4 large-4  columns text-center">
+				<span class="seal">
+        	<?php include("images/seal.svg"); ?>
+				</span>
+      </div>
+      <div class="adr medium-4 large-4 columns text-center">
+        
+    
+      </div>
+    </header>
 		<?php else: ?>
 			
 			
