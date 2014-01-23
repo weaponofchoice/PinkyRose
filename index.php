@@ -152,7 +152,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 				</div>
 			</div>
     </section>
-    <footer class="row fixed">
+    <footer class="row absolute black">
 		<?php
 		$detect = new Mobile_Detect;
 		if ( $detect->isMobile()) :
