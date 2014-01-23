@@ -51,15 +51,11 @@ header.black, footer.black{
 	
 	color:black;
 	
-	@media #{$small-only} {
-		color:white;
-	}
+	
 	
 	a:link, a:visited{
 		text-decoration:none;
 		color:black;
-		@media #{$small-only} {
-			color:white;
-		}
+		
 	}
 }
