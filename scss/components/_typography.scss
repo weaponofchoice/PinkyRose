@@ -26,7 +26,7 @@ html, body, form,  {
     font-family:"Apercu Regular", Calibri, sans-serif; font-size-adjust:0.508; font-weight:normal; font-style:normal; 
 }
 
-footer, #splash-static{
+footer, header, #splash-static{
 	font-size:1.25em;
 	line-height:1.2em;
 	font-family: "kepler-std",serif;
@@ -47,7 +47,7 @@ footer, #splash-static{
 	line-height:1em;
 }
 
-footer.black{
+header.black{
 	
 	color:black;
 	

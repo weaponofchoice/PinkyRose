@@ -3,22 +3,22 @@
   if ($('#contact').length > 0) {
     $('#contact').waypoint(function(direction) {
       if (direction === 'down') {
-        $('footer, .seal').fadeOut(10);
+        $('header, .seal').fadeOut(10);
       }
       if (direction === 'up') {
-        return $('footer, .seal').fadeIn(500);
+        return $('header, .seal').fadeIn(500);
       }
     }, {
       offset: '99%'
     });
     $('#contact').waypoint(function(direction) {
       if (direction === 'down') {
-        $('footer').addClass('black');
-        $('footer, .social').fadeIn(500);
+        $('header').addClass('black');
+        $('header, .social').fadeIn(500);
       }
       if (direction === 'up') {
-        $('footer').removeClass('black');
-        return $('footer, .social').fadeOut(10);
+        $('header').removeClass('black');
+        return $('header, .social').fadeOut(10);
       }
     }, {
       offset: '50'
