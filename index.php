@@ -155,7 +155,7 @@
 on the arrival of pinky rose fresh &amp; serious syrups</p>
 	      <!-- Begin MailChimp Signup Form -->
 	      <div id="mc_embed_signup">
-	      	<form action="http://nenxavier.us3.list-manage.com/subscribe/post?u=1c2fc9506c934917bd0a7235a&amp;id=195620a060" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	      	<form action="http://pinkyrose.us3.list-manage.com/subscribe/post?u=653887f03d70d0fb992ea2a94&amp;id=c1672b9ebe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 	        <div class="mc-field-group">
 	          <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="FIRST NAME">
 	          <input type="text" value="" name="LNAME" class="" id="mce-FNAME" placeholder="LAST NAME">
@@ -166,7 +166,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 	        <div id="mce-responses" class="clear">
 	          <div class="response" id="mce-error-response"></div>
 	        </div>    <!-- real people should not fill this in and expect good things -->
-	          <div style="position: absolute; left: -5000px;"><input type="text" name="b_3f0272d82730516139eb960f2_51c8d0a2f8" value=""></div>
+	          <div style="position: absolute; left: -5000px;"><input type="text" name="b_653887f03d70d0fb992ea2a94_c1672b9ebe" value=""></div>
 	        <div class="clear small-12 medium-6 large-6 small-centered columns"><input type="submit" value="SIGN ME UP" name="subscribe" id="mc-embedded-subscribe"></div>
 	      </form>
 				</div>

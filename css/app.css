@@ -2308,11 +2308,6 @@ svg {
   text-align: center;
   line-height: 1.2;
 }
-/* line 62, ../scss/_home.scss */
-#splash .mc .response p, #splash-static .mc .response p {
-  color: white;
-  margin-top: 0;
-}
 @media only screen and (max-width: 40em) {
   /* line 45, ../scss/_home.scss */
   #splash .mc, #splash-static .mc {
@@ -2321,35 +2316,35 @@ svg {
   }
 }
 
-/* line 75, ../scss/_home.scss */
+/* line 72, ../scss/_home.scss */
 #contact {
   width: 100%;
   padding-top: 10.625rem;
   padding-bottom: 16.25rem;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 75, ../scss/_home.scss */
+  /* line 72, ../scss/_home.scss */
   #contact {
     padding-top: 3.125rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 75, ../scss/_home.scss */
+  /* line 72, ../scss/_home.scss */
   #contact {
     padding-bottom: 3.75rem;
   }
 }
-/* line 84, ../scss/_home.scss */
+/* line 81, ../scss/_home.scss */
 #contact p {
   margin: 150px auto 50px;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 84, ../scss/_home.scss */
+  /* line 81, ../scss/_home.scss */
   #contact p {
     margin: 50px auto 50px;
   }
 }
-/* line 88, ../scss/_home.scss */
+/* line 85, ../scss/_home.scss */
 #contact .brands,
 #contact .vcard {
   text-align: center;
@@ -2357,7 +2352,7 @@ svg {
   line-height: 120%;
   letter-spacing: 0.08em;
 }
-/* line 95, ../scss/_home.scss */
+/* line 92, ../scss/_home.scss */
 #contact .brands {
   font-family: "Fournier MT Std";
   font-size: 1.5rem;
@@ -2365,32 +2360,36 @@ svg {
   letter-spacing: 0.02em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 95, ../scss/_home.scss */
+  /* line 92, ../scss/_home.scss */
   #contact .brands {
     margin-bottom: 5rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 95, ../scss/_home.scss */
+  /* line 92, ../scss/_home.scss */
   #contact .brands {
     margin-bottom: 7rem;
   }
 }
-/* line 102, ../scss/_home.scss */
+/* line 99, ../scss/_home.scss */
 #contact .brands br {
   display: none;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 102, ../scss/_home.scss */
+  /* line 99, ../scss/_home.scss */
   #contact .brands br {
     display: block;
   }
 }
-/* line 107, ../scss/_home.scss */
+/* line 104, ../scss/_home.scss */
 #contact .adr {
   border-bottom: 1px solid black;
   padding-bottom: 1em;
   margin-bottom: 1em;
+}
+/* line 109, ../scss/_home.scss */
+#contact .response p {
+  margin-top: 0;
 }
 
 /* line 114, ../scss/_home.scss */

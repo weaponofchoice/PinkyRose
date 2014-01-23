@@ -4,7 +4,7 @@
     $('form').ajaxChimp({
       callback: function(resp) {
         var response;
-        response = resp.msg.substr(4);
+        response = resp.msg.substr(0);
         return $('.mc .response').html("<p>" + response + "</p>");
       }
     });
