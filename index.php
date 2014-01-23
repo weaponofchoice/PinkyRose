@@ -109,7 +109,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
     <footer class="row fixed">
 		<?php
 		$detect = new Mobile_Detect;
-		if ( $detect->isMobile() ) :
+		if ( $detect->isMobile() && !$detect->isTablet()) :
 		    // Do something for only mobile users
 		
 		?>
