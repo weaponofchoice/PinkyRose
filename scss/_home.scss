@@ -138,10 +138,14 @@ header, footer {
 		}
 	}
 	
+	.social-desk{
+		display:none;
+	}
+	
 	.social{
 		position:absolute;
 		
-		//display:none;
+		
 		height:3rem;
 		width:100%;
 		top:1.75rem;
