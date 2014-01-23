@@ -33,61 +33,7 @@
   </head>
   <body>
     
-		<?php
-		$detect = new Mobile_Detect;
-		if( $detect->isTablet() ):
-		    // Do something for only mobile users
 		
-		?>
-		
-    <header class="row absolute">
-      <div class="adr medium-4 large-4 columns text-center">
-        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
-        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
-      </div>
-      <div class=" medium-4 large-4  columns text-center">
-				<span class="seal">
-        	<?php include("images/seal.svg"); ?>
-				</span>
-      </div>
-      <div class="adr medium-4 large-4 columns text-center">
-        <div class="street-address">Westzeedijk 453</div>
-				<span class="postal-code">3024 EK</span>
-        <span class="locality">Rotterdam</span>
-      
-      </div>
-    </header>
-
-		<?php else: ?>
-		<?php	endif;	?>	
-		<?php if( $detect->isMobile() && !$detect->isTablet() ):
-		   Test
-	
-		?>
-		<?php else: ?>
-    <header class="desktop row fixed">
-      <div class="adr medium-4 large-4 columns text-center">
-        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
-        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
-      </div>
-      <div class=" medium-4 large-4  columns text-center">
-				<span class="seal seal-desk">
-        	<?php include("images/seal.svg"); ?>
-				</span>
-				<span class="social social-desk">
-        	<a href="http://pinkyrose-now.tumblr.com/" class="button" id="tumblr" target="_blank">
-        		<span>Tumblr</span>
-        	</a>
-				</span>
-      </div>
-      <div class="adr medium-4 large-4 columns text-center">
-        <div class="street-address">Westzeedijk 453</div>
-				<span class="postal-code">3024 EK</span>
-        <span class="locality">Rotterdam</span>
-      
-      </div>
-    </header>
-		<?php	endif;	?>
   
 		
 		
