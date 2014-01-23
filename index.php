@@ -152,7 +152,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 		<script src="js/bigvideo.js"></script>
 		<?php
 		$detect = new Mobile_Detect;
-		if ( $detect->isMobile() && !$detect->isTablet()) :
+		if ( $detect->isMobile()) :
 		    // Do something for only mobile users
 		
 		?>
