@@ -2333,17 +2333,23 @@ svg {
     padding-top: 3.125rem;
   }
 }
-/* line 81, ../scss/_home.scss */
+@media only screen and (max-width: 40em) {
+  /* line 75, ../scss/_home.scss */
+  #contact {
+    padding-bottom: 3.75rem;
+  }
+}
+/* line 84, ../scss/_home.scss */
 #contact p {
   margin: 150px auto 50px;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 81, ../scss/_home.scss */
+  /* line 84, ../scss/_home.scss */
   #contact p {
     margin: 50px auto 50px;
   }
 }
-/* line 85, ../scss/_home.scss */
+/* line 88, ../scss/_home.scss */
 #contact .brands,
 #contact .vcard {
   text-align: center;
@@ -2351,7 +2357,7 @@ svg {
   line-height: 120%;
   letter-spacing: 0.08em;
 }
-/* line 92, ../scss/_home.scss */
+/* line 95, ../scss/_home.scss */
 #contact .brands {
   font-family: "Fournier MT Std";
   font-size: 1.5rem;
@@ -2359,52 +2365,52 @@ svg {
   letter-spacing: 0.02em;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 92, ../scss/_home.scss */
+  /* line 95, ../scss/_home.scss */
   #contact .brands {
     margin-bottom: 5rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 92, ../scss/_home.scss */
+  /* line 95, ../scss/_home.scss */
   #contact .brands {
     margin-bottom: 7rem;
   }
 }
-/* line 99, ../scss/_home.scss */
+/* line 102, ../scss/_home.scss */
 #contact .brands br {
   display: none;
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 99, ../scss/_home.scss */
+  /* line 102, ../scss/_home.scss */
   #contact .brands br {
     display: block;
   }
 }
-/* line 104, ../scss/_home.scss */
+/* line 107, ../scss/_home.scss */
 #contact .adr {
   border-bottom: 1px solid black;
   padding-bottom: 1em;
   margin-bottom: 1em;
 }
 
-/* line 111, ../scss/_home.scss */
+/* line 114, ../scss/_home.scss */
 header, footer {
   z-index: 100;
   bottom: 50px;
 }
-/* line 113, ../scss/_home.scss */
+/* line 116, ../scss/_home.scss */
 header.absolute, footer.absolute {
   position: absolute;
 }
-/* line 117, ../scss/_home.scss */
+/* line 120, ../scss/_home.scss */
 header.relative, footer.relative {
   position: relative;
 }
-/* line 125, ../scss/_home.scss */
+/* line 128, ../scss/_home.scss */
 header .adr, footer .adr {
   padding: 1.5em;
 }
-/* line 130, ../scss/_home.scss */
+/* line 133, ../scss/_home.scss */
 header .seal, footer .seal {
   position: absolute;
   width: 100%;
@@ -2412,16 +2418,16 @@ header .seal, footer .seal {
   text-align: center;
 }
 @media only screen and (max-width: 40em) {
-  /* line 130, ../scss/_home.scss */
+  /* line 133, ../scss/_home.scss */
   header .seal, footer .seal {
     position: relative;
   }
 }
-/* line 141, ../scss/_home.scss */
+/* line 144, ../scss/_home.scss */
 header .social-desk, footer .social-desk {
   display: none;
 }
-/* line 145, ../scss/_home.scss */
+/* line 148, ../scss/_home.scss */
 header .social, footer .social {
   position: absolute;
   height: 3rem;
@@ -2430,7 +2436,7 @@ header .social, footer .social {
   left: 0;
   text-align: center;
 }
-/* line 155, ../scss/_home.scss */
+/* line 158, ../scss/_home.scss */
 header .social .button, footer .social .button {
   -webkit-transition-property: background-color;
   -moz-transition-property: background-color;
@@ -2453,16 +2459,16 @@ header .social .button, footer .social .button {
   margin: 0 auto;
   background: no-repeat center center;
 }
-/* line 178, ../scss/_home.scss */
+/* line 181, ../scss/_home.scss */
 header .social .button span, footer .social .button span {
   display: none;
 }
-/* line 184, ../scss/_home.scss */
+/* line 187, ../scss/_home.scss */
 header .social .button#tumblr, footer .social .button#tumblr {
   background-image: url("../images/tumblr.svg");
   background-size: 30%;
 }
-/* line 192, ../scss/_home.scss */
+/* line 195, ../scss/_home.scss */
 header .payoff, footer .payoff {
   margin: 0 auto;
   fill: white;
@@ -2471,19 +2477,19 @@ header .payoff, footer .payoff {
   -o-transition: fill .3s ease-in-out;
   transition: fill .3s ease-in-out;
 }
-/* line 200, ../scss/_home.scss */
+/* line 203, ../scss/_home.scss */
 header .payoff svg, footer .payoff svg {
   display: block;
   margin: 0 auto;
   width: 100%;
 }
 
-/* line 209, ../scss/_home.scss */
+/* line 212, ../scss/_home.scss */
 .white header .logo,
 .white footer .payoff {
   fill: black;
 }
-/* line 213, ../scss/_home.scss */
+/* line 216, ../scss/_home.scss */
 .white header .tumblr,
 .white header .contact {
   color: black;
