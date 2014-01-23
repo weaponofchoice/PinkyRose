@@ -1,0 +1,221 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+html{
+overflow-x:hidden; //must be in html, not body otherwise waypoints won't work!
+}
+
+.row { max-width: none; }
+.fixed { 
+	position: fixed; 
+	
+	
+	
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+	max-width:100%;
+}
+
+#splash, #splash-static {
+  height: 100%;
+  width: 100%;
+	.vjs-control-bar{
+		display:none;
+	}
+	
+	
+	video{
+		width: 100%;
+		height: 100%;
+		background:black;
+		object-fit:cover;
+	}
+	
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+	  height: 100%;
+	  width: 100%;
+		}
+		
+  .mc {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: table;
+    height: auto;
+    
+    h2 {
+      color: white;
+      font-size: rem-calc(28);
+      font-weight: normal;
+      text-align: center;
+      line-height: 1.2;
+    }
+    
+		@media #{$small-only} {
+			display:block;
+			top:20px;
+		}
+
+  }
+}
+
+
+#contact {
+  
+  width: 100%;
+  padding-top: rem-calc(170);
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {  padding-top: rem-calc(50);}
+	padding-bottom: rem-calc(260);
+	@media #{$small-only} {
+		padding-bottom: rem-calc(60);
+	}
+	p{
+		margin:150px auto 50px;
+		@media only screen and (min-device-width : 320px) and (max-device-width : 480px) { margin:50px auto 50px;}
+	}
+  .brands,
+  .vcard {
+    text-align: center;
+    font-size: rem-calc(20);
+    line-height: 120%;
+    letter-spacing: 0.08em;
+  }
+  .brands {
+    @media #{$medium-up} { margin-bottom: rem-calc(80); }
+    @media #{$large-up} { margin-bottom: rem-calc(112); }
+    font-family: "Fournier MT Std";
+    font-size: rem-calc(24);
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    br {
+      display: none;
+      @media #{$large-up} { display: block; }
+    }
+  }
+  .adr {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+  }
+  .response p {
+    margin-top: 0;
+  }
+}
+
+header, footer {
+	z-index: 100; 
+	&.absolute{
+		position:absolute;
+	}
+	
+	&.relative{
+		position:relative;
+	}
+	
+  bottom: 50px;
+  
+
+	
+	.adr{
+		padding:1.5em;
+	}
+	
+	
+	.seal{
+		position:absolute;
+		width:100%;
+	  left:0;
+		text-align:center;
+		
+		@media #{$small-only} {
+			position:relative;
+		}
+	}
+	
+	.social-desk{
+		display:none;
+	}
+	
+	.social{
+		position:absolute;
+		
+		
+		height:3rem;
+		width:100%;
+		top:1.75rem;
+		left:0;
+		text-align:center;
+		
+		.button {
+		-webkit-transition-property: background-color;
+		-moz-transition-property: background-color;
+		-o-transition-property: background-color;
+		transition-property: background-color;
+		-webkit-transition-duration: 0.2s;
+		-moz-transition-duration: 0.2s;
+		-o-transition-duration: 0.2s;
+		transition-duration: 0.2s;
+		-webkit-transition-timing-function: ease-in-out;
+		-moz-transition-timing-function: ease-in-out;
+		-o-transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;
+		transition-duration: .2s;
+		display: inline-block;
+		width: 3rem;
+		height: 3rem;
+		border: 2px solid #000;
+		border-radius: 100%;
+		margin: 0 auto;
+		
+		background: no-repeat center center;
+		
+		span {
+			display: none;
+			}
+			
+		}
+		
+		.button#tumblr{
+			background-image: url('../images/tumblr.svg');
+			background-size: 30%;
+		}
+		
+		
+	}
+	
+  .payoff {
+    margin: 0 auto;
+    fill: white;
+    -webkit-transition: fill .3s ease-in-out;
+    -moz-transition: fill .3s ease-in-out;
+    -o-transition: fill .3s ease-in-out;
+    transition: fill .3s ease-in-out;
+    
+    svg {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+}
+
+.white {
+  header .logo,
+  footer .payoff {
+    fill: black;
+  }
+  header .tumblr, 
+  header .contact {
+    color: black;
+  }
+}
+

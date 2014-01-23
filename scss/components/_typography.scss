@@ -1,0 +1,61 @@
+h2{
+	font-family: "kepler-std",serif;
+	font-style: italic;
+	font-weight: 600;
+	font-size:2.174em;
+	text-align:center;
+}
+
+
+
+
+html, body, form,  {
+	font-family:"Apercu Regular", Calibri, sans-serif; font-size-adjust:0.508; font-weight:normal; font-style:normal; 
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+   font-family:"Apercu Regular", Calibri, sans-serif; font-size-adjust:0.508; font-weight:normal; font-style:normal; 
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-family:"Apercu Regular", Calibri, sans-serif; font-size-adjust:0.508; font-weight:normal; font-style:normal; 
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-family:"Apercu Regular", Calibri, sans-serif; font-size-adjust:0.508; font-weight:normal; font-style:normal; 
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-family:"Apercu Regular", Calibri, sans-serif; font-size-adjust:0.508; font-weight:normal; font-style:normal; 
+}
+
+footer, header, #splash-static{
+	font-size:1.25em;
+	line-height:1.2em;
+	font-family: "kepler-std",serif;
+	font-style: normal;
+	font-weight: 400;
+	color:white;
+	 
+	a:link, a:visited{
+		text-decoration:none;
+		color:white;
+	}
+	
+	
+}
+
+#splash-static{
+	font-size:0.8em;
+	line-height:1em;
+}
+
+header.black, footer.black{
+	
+	color:black;
+	
+	
+	
+	a:link, a:visited{
+		text-decoration:none;
+		color:black;
+		
+	}
+}
