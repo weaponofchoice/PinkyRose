@@ -150,9 +150,15 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 		<script src="bower_components/video.js/video.js"></script>
 		<script src="bower_components/BigVideo.js/lib/bigvideo.js"></script>
 		<script src="js/bigvideo.js"></script>
+		<?php
+		$detect = new Mobile_Detect;
+		if ( $detect->isMobile() && !$detect->isTablet()) :
+		    // Do something for only mobile users
 		
+		?>
+		<?php else: ?>
 	  <script src="js/init-waypoints.js"></script>
-	
+	  <?php	endif;	?>
 		<script type="text/javascript" src="//use.typekit.net/hmx6jli.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<script type="text/javascript">
