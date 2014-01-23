@@ -35,7 +35,7 @@
     
 		<?php
 		$detect = new Mobile_Detect;
-		if ( $detect->isMobile()) :
+		if ( $detect->isTablet()()) :
 		    // Do something for only mobile users
 		
 		?>
@@ -57,6 +57,11 @@
       
       </div>
     </header>
+		
+		<? if ( $detect->isMobile()) :
+		    // Do something for only mobile users
+		
+		?>
 		
 		<?php else: ?>
     <header class="desktop row fixed">
