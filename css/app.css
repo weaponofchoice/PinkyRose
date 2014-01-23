@@ -1496,14 +1496,14 @@ html, body, form {
   font-weight: normal;
   font-style: normal; }
 
-footer, #splash-static {
+footer, header, #splash-static {
   font-size: 1.25em;
   line-height: 1.2em;
   font-family: "kepler-std",serif;
   font-style: normal;
   font-weight: 400;
   color: white; }
-  footer a:link, footer a:visited, #splash-static a:link, #splash-static a:visited {
+  footer a:link, footer a:visited, header a:link, header a:visited, #splash-static a:link, #splash-static a:visited {
     text-decoration: none;
     color: white; }
 
@@ -1511,16 +1511,16 @@ footer, #splash-static {
   font-size: 0.8em;
   line-height: 1em; }
 
-footer.black {
+footer.black, header.black {
   color: black; }
   @media only screen and (max-width: 40em) {
-    footer.black {
+    footer.black, header.black {
       color: white; } }
-  footer.black a:link, footer.black a:visited {
+  footer.black a:link, footer.black a:visited, header.black a:link, header.black a:visited {
     text-decoration: none;
     color: black; }
     @media only screen and (max-width: 40em) {
-      footer.black a:link, footer.black a:visited {
+      footer.black a:link, footer.black a:visited, header.black a:link, header.black a:visited {
         color: white; } }
 
 form {
@@ -1581,31 +1581,6 @@ html {
   @media only screen and (max-width: 40em) {
     .fixed {
       position: absolute; } }
-
-header .logo {
-  margin: 3.125rem auto 2rem;
-  fill: white;
-  -webkit-transition: fill .3s ease-in-out;
-  -moz-transition: fill .3s ease-in-out;
-  -o-transition: fill .3s ease-in-out;
-  transition: fill .3s ease-in-out; }
-  @media only screen and (min-width: 40.063em) {
-    header .logo {
-      margin-bottom: -1em; } }
-header .contact,
-header .tumblr {
-  color: white;
-  text-decoration: none;
-  padding: 0 0.9375rem;
-  -webkit-transition: color .3s ease-in-out;
-  -moz-transition: color .3s ease-in-out;
-  -o-transition: color .3s ease-in-out;
-  transition: color .3s ease-in-out; }
-  header .contact:hover,
-  header .tumblr:hover {
-    text-decoration: underline; }
-header .tumblr {
-  text-align: right; }
 
 svg {
   display: block;
@@ -1689,22 +1664,22 @@ svg {
     padding-bottom: 1em;
     margin-bottom: 1em; }
 
-footer {
+footer, header {
   bottom: 50px; }
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    footer.fixed {
+    footer.fixed, header.fixed {
       position: absolute; } }
-  footer .adr {
+  footer .adr, header .adr {
     padding: 1.5em; }
-  footer .seal {
+  footer .seal, header .seal {
     position: absolute;
     width: 100%;
     left: 0;
     text-align: center; }
     @media only screen and (max-width: 40em) {
-      footer .seal {
+      footer .seal, header .seal {
         position: relative; } }
-  footer .social {
+  footer .social, header .social {
     position: absolute;
     display: none;
     height: 3rem;
@@ -1712,7 +1687,7 @@ footer {
     top: 1.75rem;
     left: 0;
     text-align: center; }
-    footer .social .button {
+    footer .social .button, header .social .button {
       -webkit-transition-property: background-color;
       -moz-transition-property: background-color;
       -o-transition-property: background-color;
@@ -1733,19 +1708,19 @@ footer {
       border-radius: 100%;
       margin: 0 auto;
       background: no-repeat center center; }
-      footer .social .button span {
+      footer .social .button span, header .social .button span {
         display: none; }
-    footer .social .button#tumblr {
+    footer .social .button#tumblr, header .social .button#tumblr {
       background-image: url("../images/tumblr.svg");
       background-size: 30%; }
-  footer .payoff {
+  footer .payoff, header .payoff {
     margin: 0 auto;
     fill: white;
     -webkit-transition: fill .3s ease-in-out;
     -moz-transition: fill .3s ease-in-out;
     -o-transition: fill .3s ease-in-out;
     transition: fill .3s ease-in-out; }
-    footer .payoff svg {
+    footer .payoff svg, header .payoff svg {
       display: block;
       margin: 0 auto;
       width: 100%; }

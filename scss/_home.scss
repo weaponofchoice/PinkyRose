@@ -17,32 +17,7 @@ overflow-x:hidden; //must be in html, not body otherwise waypoints won't work!
 	}
 	
 }
-header {
-  .logo {
-    margin: rem-calc(50) auto 2rem;
-    @media #{$medium-up} { margin-bottom: -1em; }
-    fill: white;
-    -webkit-transition: fill .3s ease-in-out;
-    -moz-transition: fill .3s ease-in-out;
-    -o-transition: fill .3s ease-in-out;
-    transition: fill .3s ease-in-out;
-    
-    
-  }
-  .contact,
-  .tumblr {
-    color: white;
-    text-decoration: none;
-    padding: 0 rem-calc(15);
-    -webkit-transition: color .3s ease-in-out;
-    -moz-transition: color .3s ease-in-out;
-    -o-transition: color .3s ease-in-out;
-    transition: color .3s ease-in-out;
-    
-    &:hover { text-decoration: underline; }
-  }
-  .tumblr { text-align: right;}
-}
+
 
 svg {
   display: block;
@@ -136,7 +111,7 @@ svg {
     margin-bottom: 1em;
   }
 }
-footer {
+footer, header {
 	
 	@media #{$medium-only} {
 		&.fixed{
