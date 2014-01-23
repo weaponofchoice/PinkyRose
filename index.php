@@ -57,13 +57,9 @@
       
       </div>
     </header>
-
-		<?php else: ?>
-		<?php	endif;	?>	
-		<?php if( $detect->isMobile() && !$detect->isTablet() ):
-		   Test
+		
 	
-		?>
+		
 		<?php else: ?>
     <header class="desktop row fixed">
       <div class="adr medium-4 large-4 columns text-center">
