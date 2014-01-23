@@ -38,11 +38,11 @@
       </header>
     </div>
 		
-	
+		
     
 		<?php
 		$detect = new Mobile_Detect;
-		if (  $detect->isMobile() ) :
+		if (  $detect->isMobile()  ) :
 		    // Do something for only mobile users
 		
 		?>
@@ -68,6 +68,17 @@
 	    </style>
 		<?php	endif;	?>
 		
+		
+		<?php
+		$detect = new Mobile_Detect;
+		if ( $detect->isMobile() && !$detect->isTablet() ) :
+		    // Do something for only mobile users
+		
+		?>
+		<p>No</p>
+		<?php else: ?>
+			<p>Test</p>
+		<?php	endif;	?>
 		
 		
     <section id="contact" class="row">
@@ -125,6 +136,8 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
       </div>
 				 
 		<?php	endif;	?>
+		
+		
       
     </footer>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
