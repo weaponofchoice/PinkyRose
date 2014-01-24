@@ -67,7 +67,7 @@
 	    <header class="row absolute">
 	      <div class="adr medium-4 large-4 columns text-center">
 	        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
-	        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
+	        <div class="email-address"><a href="mailto:info@pinkyrose.nl">info@pinkyrose.nl</a></div>
 	      </div>
 	      <div class=" medium-4 large-4  columns text-center">
 					<span class="seal">
@@ -87,7 +87,7 @@
 		    <header class="desktop row fixed">
 		      <div class="adr medium-4 large-4 columns text-center">
 		        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
-		        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
+		        <div class="email-address"><a href="mailto:info@pinkyrose.nl">info@pinkyrose.nl</a></div>
 		      </div>
 		      <div class=" medium-4 large-4  columns text-center">
 						<span class="seal seal-desk">
@@ -182,7 +182,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 		
     <div class="adr medium-4 large-4 columns text-center">
       <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
-      <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
+      <div class="email-address"><a href="mailto:info@pinkyrose.nl">info@pinkyrose.nl</a></div>
     </div>
    
     <div class="adr medium-4 large-4 columns text-center">
@@ -211,7 +211,7 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
     
 	      <div class="adr medium-4 large-4 columns text-center">
 	        <div class="tel "><a href="tel:0031102237081">0031 10  223 7081</a></div>
-	        <div class="email-address"><a href="mailto:info@pinkyrose.com">info@pinkyrose.nl</a></div>
+	        <div class="email-address"><a href="mailto:info@pinkyrose.nl">info@pinkyrose.nl</a></div>
 	      </div>
 	      <div class=" medium-4 large-4  columns text-center">
 					<span class="social">

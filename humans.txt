@@ -2,8 +2,9 @@
 # The humans responsible & technology colophon
 
 # TEAM
-
-    Bruce Moerdjiman -- <role> -- <twitter>
+		Hugo van den Eemster -- Designer
+    Bruce Moerdjiman -- Front-end Developer -- @broezer
+		weaponofchoice
 
 # THANKS
 
