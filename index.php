@@ -22,6 +22,8 @@
     <meta name="og:url" content="http://www.pinkyrose.nl">
     <meta name="og:site_name" content="Pinky Rose">
     
+		<link rel="stylesheet" href="//f.fontdeck.com/s/css/uH5+KWQnibDTJRYggGJ9XZLTAgw/<?php echo $_SERVER['SERVER_NAME']; ?>/41748.css" type="text/css" />
+		
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/app_override.css">
     <!-- build:js js/vendor/modernizr.js -->
