@@ -256,7 +256,8 @@ on the arrival of pinky rose fresh &amp; serious syrups</p>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<script type="text/javascript">
 		$("#splash-static").backstretch("images/static.jpg");
-
+		</script>
+		<script type="text/javascript">
 		WebFontConfig = { fontdeck: { id: '41748' } };
 
 		(function() {
